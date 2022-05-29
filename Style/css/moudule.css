@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Poppins-bold;
+  src: url(../../Src/Fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: Poppins-regular;
+  src: url(../../Src/Fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-semibold;
+  src: url(../../Src/Fonts/Poppins-SemiBold.ttf);
+}
+.Font-B{
+  font-family: Poppins-bold;
+}
+.Font-R{
+  font-family: Poppins-regular;
+}
+.Font-SB{
+  font-family: Poppins-semibold;
+}
+
+
+.fsize-1{
+  font-size: 1rem;
+}
+.fsize-11{
+  font-size: 1.1rem;
+}
+.fsize-2{
+  font-size: 2rem;
+}
+.fsize-25{
+  font-size: 2.5rem;
+}
+.fsize-3{
+  font-size: 3rem;
+}
+
+.fweight600{
+  font-weight: 600;
+}
+
+.lheight-1-5{
+  line-height:1.5rem;
+}
+
+
+
+.main-c {
+  color: #242f51;
+}
+
+.blubtn-c{
+  color:#2500f9;
+}
+.bg-ora{
+  background-color: #feaa25;
+}
+.bg-gra{
+  background-color: #e2eaed;
+}
+.textc-gray{
+  color: #616368;
+}
+
+
+
+
+
+
+.w-30{
+  width: 30%;
+}
+.mt-10{
+  margin-top: 5rem;
+}
+.mb-10{
+  margin-bottom: 5rem;
+}
+.mt-25{
+margin-top: 20rem;
+}
+.p-10{
+  padding: 5rem;
+}
+
+
+
+.z-index-0{
+  z-index: 0;
+}
+.z-index-1{
+  z-index: 1;
+}

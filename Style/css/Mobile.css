@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+  .div1__1 {
+    width: 100% !important;
+    justify-content: start;
+    margin-top: 5rem;
+  }
+  .section2 .row {
+    padding: 1rem;
+  }
+  .mobiles{
+    top: -250px;
+    margin-top: 9rem!important;
+    margin-bottom: 8rem!important;
+    left: 26%;
+    margin-left: 0rem;
+  }
+  .image-1__2 ,.image-2__2{
+    width: 165px;
+  }
+  .image-3__2{
+    width: 319px;
+    right: 25%;
+  }
+  .smart-text h2{
+    border-right: 0;
+    border-bottom: 1px solid gray;
+  }
+  .linespread {
+    width: 100%;
+    padding: 0rem 0rem;
+    margin: 2rem 0rem;
+  }
+  .section3{
+    margin-top: 4rem;
+  }
+
+  
+  
+
+
+}
+
+

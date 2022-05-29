@@ -1,0 +1,137 @@
+.logo-c {
+  color: #fcae61 !important;
+  font-size: 1.8rem !important;
+  font-family: Poppins-bold !important;
+}
+.logo-c .logo-c:hover {
+  color: #fcae61;
+}
+
+.header-btn {
+  border-radius: 30px;
+  background-color: #2500f9;
+  padding: 0 45px;
+}
+
+.header-listItem {
+  margin-right: 2.9rem;
+}
+
+.div1__1 {
+  border-radius: 17px;
+  margin: 10rem 0rem 1.8rem;
+}
+
+.edit-choice__1 {
+  border-radius: 17px;
+  padding: 0.4rem;
+  margin-right: 0.5rem;
+}
+
+.title__1 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+}
+
+.subtitle__1 {
+  line-height: 1.8rem;
+}
+
+.bg-footer__1 {
+  background: url(../Src/Pic/section1/main1-footer.png) no-repeat bottom;
+}
+
+.bg-shape1 {
+  background: url(../Src/Pic/section1/main1-shapes.png) no-repeat 0rem 0rem;
+}
+
+.bg-shape2 {
+  background: url(../Src/Pic/section1/main1-shapes2.png) no-repeat -5rem 5rem;
+}
+
+.section1 {
+  z-index: 1;
+}
+
+/* section2 */
+.section2 {
+  background-color: white;
+  padding-top: 8rem;
+  z-index: 2;
+}
+
+.mobiles {
+  margin-left: 7rem;
+  position: relative;
+}
+
+.image-1__2 {
+  position: absolute;
+  transform: rotate(-8deg);
+  top: 9px;
+}
+
+.image-2__2 {
+  position: absolute;
+  transform: rotate(-20deg);
+}
+
+.image-3__2 {
+  position: absolute;
+  transform: rotate(0deg);
+  right: -26%;
+}
+
+.speed-icon {
+  background-color: #ffecef;
+  border-radius: 50%;
+  padding: 0.1rem;
+}
+.speed-icon img {
+  padding: 0.8rem;
+}
+.speed-icon .speed-icon + span > h5 {
+  color: #f55767;
+}
+
+.prototype-icon {
+  background-color: #f4f4ff;
+  border-radius: 50%;
+  padding: 0.1rem;
+}
+.prototype-icon img {
+  padding: 0.8rem;
+}
+.prototype-icon .prototype-icon + span > h5 {
+  color: #2563ff;
+}
+
+.vector-icon {
+  background-color: #e4ffee;
+  border-radius: 50%;
+  padding: 0.1rem;
+}
+.vector-icon img {
+  padding: 0.8rem;
+}
+.vector-icon .vector-icon + span > h5 {
+  color: #40975f;
+}
+
+/* section 3 */
+.linespread {
+  padding: 4rem 0;
+  border: 1px solid #b9b9b8;
+  background-color: #b9b9b8;
+  margin: 0 2rem;
+}
+
+.object__3 {
+  margin-top: 6.5rem;
+}
+
+.smart-text h2 {
+  border-right: 1px solid gray;
+}
+
+/*# sourceMappingURL=style.css.map */
