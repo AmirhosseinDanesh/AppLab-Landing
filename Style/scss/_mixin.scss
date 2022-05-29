@@ -1,0 +1,8 @@
+@mixin section2img($position, $transform) {
+    position: $position;
+    transform: $transform;
+  }
+  @mixin section2Vector {
+    border-radius: 50%;
+    padding: 0.1rem;
+  }

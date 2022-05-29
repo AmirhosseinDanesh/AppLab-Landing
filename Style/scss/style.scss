@@ -1,13 +1,15 @@
-/* .logo-c {
-  color: #fcae61 !important ;
+@import "var" ;
+@import "mixin" ;
+
+
+.logo-c {
+  color: $orangeColor !important ;
   font-size: 1.8rem !important;
   font-family: Poppins-bold !important;
+  &:hover {
+    color: $orangeColor;
+  }
 }
-
-.logo-c:hover {
-  color: #fcae61;
-}
-
 .header-btn {
   border-radius: 30px;
   background-color: #2500f9;
@@ -48,11 +50,11 @@
 
 .section1 {
   z-index: 1;
-} */
+}
 
 /* section2 */
 
-/* .section2 {
+.section2 {
   background-color: white;
   padding-top: 8rem;
   z-index: 2;
@@ -62,56 +64,54 @@
   position: relative;
 }
 .image-1__2 {
-  position: absolute;
-  transform: rotate(-8deg);
+  @include section2img(absolute, rotate(-8deg));
   top: 9px;
 }
 .image-2__2 {
-  position: absolute;
-  transform: rotate(-20deg);
+  @include section2img(absolute, rotate(-20deg));
 }
 
 .image-3__2 {
-  position: absolute;
+  @include section2img(absolute, rotate(0deg));
   right: -26%;
-}
-
-.prototype-icon,
-.speed-icon,
-.vector-icon {
-  border-radius: 50%;
-  padding: 0.1rem;
-}
-.prototype-icon img,
-.speed-icon img,
-.vector-icon img {
-  padding: 0.8rem;
 }
 
 .speed-icon {
   background-color: #ffecef;
+  @include section2Vector;
+  img {
+    padding: 0.8rem;
+  }
+  .speed-icon + span > h5 {
+    color: #f55767;
+  }
 }
 .prototype-icon {
   background-color: #f4f4ff;
-}
-
-.speed-icon + span > h5 {
-  color: #f55767;
-}
-
-.prototype-icon + span > h5 {
-  color: #2563ff;
+  @include section2Vector;
+  img {
+    padding: 0.8rem;
+  }
+  .prototype-icon + span > h5 {
+    color: #2563ff;
+  }
 }
 .vector-icon {
   background-color: #e4ffee;
+  @include section2Vector;
+  img {
+    padding: 0.8rem;
+  }
+  .vector-icon + span > h5 {
+    color: #40975f;
+  }
 }
-.vector-icon + span > h5 {
-  color: #40975f;
-} */
+
+
 
 /* section 3 */
 
-/* .linespread {
+.linespread {
   padding: 4rem 0;
   border: 1px solid #b9b9b8;
   background-color: #b9b9b8;
@@ -123,4 +123,4 @@
 
 .smart-text h2 {
   border-right: 1px solid gray;
-} */
+}

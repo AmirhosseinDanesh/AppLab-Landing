@@ -3,7 +3,8 @@
   font-size: 1.8rem !important;
   font-family: Poppins-bold !important;
 }
-.logo-c .logo-c:hover {
+
+.logo-c:hover {
   color: #fcae61;
 }
 
@@ -67,18 +68,21 @@
 
 .image-1__2 {
   position: absolute;
-  transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
   top: 9px;
 }
 
 .image-2__2 {
   position: absolute;
-  transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
 }
 
 .image-3__2 {
   position: absolute;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   right: -26%;
 }
 
@@ -87,9 +91,11 @@
   border-radius: 50%;
   padding: 0.1rem;
 }
+
 .speed-icon img {
   padding: 0.8rem;
 }
+
 .speed-icon .speed-icon + span > h5 {
   color: #f55767;
 }
@@ -99,9 +105,11 @@
   border-radius: 50%;
   padding: 0.1rem;
 }
+
 .prototype-icon img {
   padding: 0.8rem;
 }
+
 .prototype-icon .prototype-icon + span > h5 {
   color: #2563ff;
 }
@@ -111,9 +119,11 @@
   border-radius: 50%;
   padding: 0.1rem;
 }
+
 .vector-icon img {
   padding: 0.8rem;
 }
+
 .vector-icon .vector-icon + span > h5 {
   color: #40975f;
 }
@@ -133,5 +143,4 @@
 .smart-text h2 {
   border-right: 1px solid gray;
 }
-
 /*# sourceMappingURL=style.css.map */
